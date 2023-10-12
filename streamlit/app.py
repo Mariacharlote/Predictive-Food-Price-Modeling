@@ -6,9 +6,9 @@ import pandas as pd
 st.header("Food Prices Prediction - A Machine Learning Model")
 
 #Collecting User Input - Here we are collecting the features specified by the user
+st.sidebar.header("User Input Data")
+
 def collect_user_input():
-    st.sidebar.header("User Input Features")
-    
     inflation_rate = st.sidebar.number_input("Inflation Rate", min_value=0.0, value=2.0, step=0.1)
     month = st.sidebar.selectbox("Select Month", ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"])
     Season = st.sidebar.selectbox("Select Season", ["Winter", "Summer", "Spring", "Winter"])
