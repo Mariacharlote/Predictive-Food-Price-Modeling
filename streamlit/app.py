@@ -5,10 +5,28 @@ import pandas as pd
 #Model Heading
 st.header("Food Prices Prediction - A Machine Learning Model")
 
-#Collecting User Input
-st.subheader("User Input")
-inflation_rate = st.number_input("Inflation Rate", min_value=0.0, value=2.0, step=0.1)
-month = st.selectbox("Select Month", ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November"< "December"])
+#Collecting User Input - Here we are collecting the features specified by the user
+def collect_user_input():
+    st.sidebar.header("User Input Features")
+    
+    inflation_rate = st.sidebar.number_input("Inflation Rate", min_value=0.0, value=2.0, step=0.1)
+    month = st.sidebar.selectbox("Select Month", ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"])
+    Season = st.sidebar.selectbox("Select Season", ["Winter", "Summer", "Spring", "Winter"])
+    Rainfall = st.sidebar.number_input("Rainfall", min_value=0.0, value=2.0, step=0.1)
+    Region = st.sidebar.selectbox("Select Region", ["Nairobi Region", "Coast Region", "Eastern Region", "North Eastern Region", "Central Region", "Western region", "Nyanza Region"])
+    
+    user_input_data = {
+        "Inflation Rate": [inflation_rate],
+        "Month": [month],
+        "Season": [Season],
+        "Rainfall": [Rainfall],
+        "Region": [Region]
+    }
+    
+    user_input_df = pd.DataFrame(user_input_data)
+    
+    return user_input_df
+
 #More features inpyt here...
 
 
