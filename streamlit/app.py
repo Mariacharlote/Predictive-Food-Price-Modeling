@@ -1,6 +1,8 @@
 #importing Libraries
+import numpy as np
 import streamlit as st
 import pandas as pd
+from matplotlib import pyplot as plt
 
 #Model Heading
 st.header("Food Prices Prediction - A Machine Learning Model")
