@@ -8,7 +8,7 @@
 - Mariacharlote Mbiyu
 
 ## **Business Understanding**
-**Overview:** This repository features a food price prediction model capable of forecasting future food prices, particularly for two key commodities, maize and beans. The model provides predictions for various time horizons, ranging from short-term (e.g., next week, next month) to medium-term (e.g., next quarter, next year)
+**Overview:** This repository features a food price prediction model capable of forecasting future food prices, particularly for two key commodities, maize and beans. The model provides predictions for various time horizons, ranging from short-term (e.g., next week, next month) to medium-term (e.g., next quarter, next year)<br>
 **Objective**
 The food security and agricultural sector's crucial role in Kenya's well-being and economy underscores the need for accurate food price forecasting. With staple crops like maize and beans forming the backbone of the nation's agriculture, this project focuses on assisting Kenyan farmers and retailers in making informed decisions by utilizing advanced data science methodologies. The objectives encompass identifying price trends, regional segmentation, analysis of various food categories, geospatial insights, correlation investigations, time series modeling, market basket analysis, and the deployment of pricing models, ultimately benefitting Kenyan farmers and retailers striving to improve their economic prospects through data-driven insights.
 
@@ -46,14 +46,14 @@ The baseline LSTM model used default parameters. Two key strategies were impleme
 
 However, the baseline model still outperformed the improved model therefore the baseline was used to make predictions for the next 12 months.
 
-## **Conclusion & Recommendation **
+## **Conclusions & Recommendations**
 **Conclusions:** Our study on predicting Kenyan food prices unveiled insights about price variability, inflation effects, and consumer preferences. We adopted LSTM models for maize and beans, reducing RMSE and enhancing forecasting accuracy. Our predictions empower stakeholders for better planning and decision-making in the agricultural sector.
 
 **Recommendations:**
 
-Farmers and Retailers: Use forecasts for optimized production and sales strategies, and consider crop diversification.
-Government and Policymakers: Integrate price forecasts into food security policies and secure food commodities in anticipation of price hikes.
-Consumers: Stay informed about potential price fluctuations to manage your food budget effectively.
+- Farmers and Retailers: Use forecasts for optimized production and sales strategies, and consider crop diversification.
+- Government and Policymakers: Integrate price forecasts into food security policies and secure food commodities in anticipation of price hikes.
+- Consumers: Stay informed about potential price fluctuations to manage your food budget effectively.
 
 ## **Determine next steps**
 _Data Expansion:_ Acquire data from remote areas like North Eastern Kenya where price information is limited. Enhance the dataset's comprehensiveness.
