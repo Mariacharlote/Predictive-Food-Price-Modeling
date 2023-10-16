@@ -8,7 +8,8 @@
 - Mariacharlote Mbiyu
 
 ## **Business Understanding**
-**Overview:** This repository features a food price prediction model capable of forecasting future food prices, particularly for two key commodities, maize and beans. The model provides predictions for various time horizons, ranging from short-term (e.g., next week, next month) to medium-term (e.g., next quarter, next year)<br>
+**Overview:** This repository features a food price prediction model capable of forecasting future food prices, particularly for two key commodities, maize and beans. The model provides predictions for various time horizons, ranging from short-term (e.g., next week, next month) to medium-term (e.g., next quarter, next year)
+
 **Objective**<br>
 The food security and agricultural sector's crucial role in Kenya's well-being and economy underscores the need for accurate food price forecasting. With staple crops like maize and beans forming the backbone of the nation's agriculture, this project focuses on assisting Kenyan farmers and retailers in making informed decisions by utilizing advanced data science methodologies. The objectives encompass identifying price trends, regional segmentation, analysis of various food categories, geospatial insights, correlation investigations, time series modeling, market basket analysis, and the deployment of pricing models, ultimately benefitting Kenyan farmers and retailers striving to improve their economic prospects through data-driven insights.
 
